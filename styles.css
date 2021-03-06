@@ -1,0 +1,98 @@
+/* nice default settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  width: 100%;
+}
+
+.about-header,
+.about-photos,
+.about-caption,
+.skills-header,
+.skills-list {
+  width: 100%;
+}
+
+.about-header,
+.skills-header {
+  display: flex;
+  justify-content: center;
+}
+
+.about-photos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.about-photo {
+  width: 80%;
+  margin: 3% 0;
+}
+
+.rewards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.rewards-header {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.reward-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.reward-info-paragraph {
+  text-align: center;
+}
+
+.reward {
+  width: 100%;
+}
+
+
+
+/* Large Screens/TVs */
+@media only screen and (min-width: 1041px) {
+  .about-photo {
+    width: 20%;
+  }
+}
+
+/* Small/Laptop */
+@media only screen and (max-width: 1040px) and (min-width: 769px) {
+  .about-photo {
+    width: 20%;
+  }
+}
+
+/* Tablets */
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .about-photo {
+    width: 40%;
+  }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+
+}
